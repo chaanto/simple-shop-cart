@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chaanto Shoppu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 mt-4 my-4">
+                    <img src="img/logo.png" width="400px" id="logo">
+                </div>
+            </div>
+            <div class="text-right mb-4">
+                <div>
+                    <div class="submenu">
+                        <img src="img/cart.png" id="img-cart">
+                        <div id="shopping-cart">
+                            <table id="cart-content" class="u-full-width">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="hero-content">
+                        <h2>Manga Bookstore</h2>
+                        <p>All you want !!</p>
+                        <form action="#" id="search" method="post" class="form">
+                            <input class="u-full-width" type="text" placeholder="find your manga? "
+                                id="search-course">
+                            <input type="submit" id="submit-search-course" class="submit-search-course">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icon icon1">
+                    <p>Over than 20000 manga<br>
+                        in this store</p>
+                </div>
+                <div class="four columns icon icon2">
+                    <p>Good facility, services<br>
+                        and finest quality books</p>
+                </div>
+                <div class="four columns icon icon3">
+                    <p>Membership is available<br>
+                        read at your own pace</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="courses-list" class="container">
+        <h1 id="heading" class="heading">Manga List</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course1.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>One Piece</h4>
+                        <p>Eiichiro Oda</p>
+                        <img src="img/stars.png">
+                        <p class="price">$15 <span class="u-pull-right ">$10</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to
+                            Cart</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course2.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Kimetsu no Yaiba</h4>
+                        <p>Koyoharu Gotouge</p>
+                        <img src="img/stars.png">
+                        <p class="price">$15 <span class="u-pull-right ">$10</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to
+                            Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course3.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Fairy Tail</h4>
+                        <p>Hiro Mashima</p>
+                        <img src="img/stars.png">
+                        <p class="price">$15 <span class="u-pull-right ">$10</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to
+                            Cart</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course4.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Tensei Shitara Slime datta ken</h4>
+                        <p>Fuse</p>
+                        <img src="img/stars.png">
+                        <p class="price">$15 <span class="u-pull-right ">$10</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to
+                            Cart</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course5.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Home Decor with recycled products</h4>
+                        <p>Juan Pedro</p>
+                        <img src="img/stars.png">
+                        <p class="price">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to
+                            Cart</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/course1.jpg" class="course-image u-full-width">
+                    <div class="info-card">
+                        <h4>Web Design for beginners</h4>
+                        <p>Juan Pedro</p>
+                        <img src="img/stars.png">
+                        <p class="price">$200 <span class="u-pull-right ">$15</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to
+                            Cart</a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="primary" class="menu">
+                        <a class="link" href="#">For Business</a>
+                        <a class="link" href="#">Become an Instructor</a>
+                        <a class="link" href="#">Mobile Applications</a>
+                        <a class="link" href="#">Support</a>
+                        <a class="link" href="#">Help</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secondary" class="menu">
+                        <a class="link" href="#">About Us</a>
+                        <a class="link" href="#">Work with us</a>
+                        <a class="link" href="#">Blog</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
